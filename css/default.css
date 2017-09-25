@@ -1,0 +1,78 @@
+
+.chart-container {
+	width:  80%;
+	height: 480px;
+	margin: 0 auto;
+}
+
+.pie-chart-container {
+	width : 360px;
+	height : 360px;
+	float : left;
+}
+#menu_gral li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+#menu_gral li:hover ul,
+#menu_gral li:focus ul {
+    width: 100%;
+    z-index: 5;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    background:  #bbb;
+}
+#menu_gral {
+    font-family: verdana, sans sherif;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+#menu_gral ul {
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+}
+#menu_gral > ul li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    background: #FF7361;
+}
+#menu_gral li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #444;
+    display: block;
+    line-height: 2.5rem;
+}
+#menu_gral li a:hover,
+#menu_gral li a:focus {
+    background: #444;
+    color: #fff;
+}
+#menu_gral li li {
+    display: block;
+    width: 100%;
+}
+#menu_gral li:hover li a,
+#menu_gral li:focus li a {
+    display: block;
+    font-family: monospace;
+    font-size: .9rem;
+    line-height: 1.7rem;
+    border-top: 1px solid #e5e5e5;
+    background: #444;
+}
+#menu_gral li li a:hover,
+#menu_gral li li a:focus {
+    background: #8AA9B8; 
+}
+#menu_gral li:hover ul,
+#menu_gral li:focus ul {
+    width: 100%;
+    z-index: 5;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    background:  #bbb;
+}
